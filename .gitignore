@@ -1,0 +1,64 @@
+# General & Secrets
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.env
+.env.*
+*.jks
+*.keystore
+*.apk
+*.aab
+*.class
+*.log
+*.pyc
+*.swp
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Android / Gradle
+.gradle/
+**/android/.gradle/
+build/
+**/build/
+app/build/
+local.properties
+**/android/local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/coverage/
+test/failures/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.widget_preview/
+
+# React Native / Node (Standard hygiene)
+node_modules/
+.expo/
+dist/
+npm-debug.*
+yarn-error.*
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
